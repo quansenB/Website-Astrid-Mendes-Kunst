@@ -32,20 +32,20 @@ export default function Portfolio() {
   return (
     <section className="px-6 py-12 lg:px-20">
       <div className="prose prose-gray max-w-xl">
-        <h2>
+        <h2 className="mb-6">
           Ausgewählte Projekte
         </h2>
       </div>
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
         {projects.map((project) => (
           <div key={project.id} className="flex flex-col">
-            <div className="w-full overflow-hidden rounded-md shadow-lg">
+            <div className="max-w-md rounded-md shadow-lg not-prose">
               <Image
                 src={project.imageUrl}
                 alt={project.title}
+                className="rounded-md object-cover"
                 width={600}
-                height={800}
-                className="object-cover w-full"
+                height={1000}
               />
             </div>
             <p className="mt-2 text-lg font-medium prose prose-gray">
