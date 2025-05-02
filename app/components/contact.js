@@ -47,7 +47,7 @@ export default function Contact() {
             id="name"
             required
             placeholder="Dein Name"
-            className="w-full rounded-xl border border-gray-300 p-4"
+            className="w-full rounded-xl border border-gray-600 p-4"
           />
         </div>
 
@@ -61,7 +61,7 @@ export default function Contact() {
             id="email"
             required
             placeholder="Deine E-Mail"
-            className="w-full rounded-xl border border-gray-300 p-4"
+            className="w-full rounded-xl border border-gray-600 p-4"
           />
         </div>
 
@@ -75,7 +75,7 @@ export default function Contact() {
             required
             placeholder="Deine Nachricht"
             rows="5"
-            className="w-full rounded-xl border border-gray-300 p-4"
+            className="w-full rounded-xl border border-gray-600 p-4"
           ></textarea>
         </div>
 
@@ -87,7 +87,7 @@ export default function Contact() {
         </button>
 
         {status && (
-          <p className="text-center text-sm text-gray-600">
+          <p className="text-center text-sm text-gray-800">
             Deine Anfrage war {status}.
           </p>
         )}
