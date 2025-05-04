@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="prose prose-gray max-w-xl">
           <div className="prose prose-gray max-w-xl">
             <h1 className="">Kunsthaus am See</h1>
-            <p className="">Ein Projekt von Astrid Mendes da Vitoria</p>
+            <p className="">Kunst, die bewegt – mitten am See</p>
           </div>
         </div>
 
